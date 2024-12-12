@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: Fonte-padrao;
+    src: url(../fonts/BDScript-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header{
+    background-color: rgb(66, 63, 63);
+    height: 100px;
+    /*background: linear-gradient(to right, rgb(15, 15, 15)0%, rgb(105, 103, 103)50%, rgb(27, 27, 27)100%);*/
+    background: white;
+}
+
+.banner{
+    height: 200px;
+    overflow: hidden;
+}
+.imagem-logo{
+    height: 90px;
+    border-radius: 50px;
+    /* border-color: white;
+    border-style: solid;
+    border-width: 5px; */
+    margin-top: 41px;
+    margin-left: -550;
+    /*box-shadow: 2px 5px 7px rgb(3, 3, 3);*/
+}
+.seccao1{
+    height: 490px;
+    padding-top: 0px;
+}
+.seccao2{
+    height: 600px;
+    padding-top: oblique;
+}
+
+body {
+    background-color: rgb(226, 224, 224);
+}
+
+.redes-sociais img{
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 400;
+    margin-top: 0px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}
+
+.titulo{
+   /*comentario */
+        font-family: Fonte-padrao;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 60px;
+        color: rgb(5, 5, 5);
+        /*text-shadow: 1px 5px 20px black;*/
+        margin-left: -130;
+        margin-top: 10px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font: 100;
+    font-style: normal;
+    color: rgb(5, 5, 5);
+    margin-left: -63;
+    margin-top: -41px;
+}
+
+.tabela-cabecalho{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar{
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, rgb(105, 103, 103,0.7)50%, rgb(27, 27, 27,0.7)100%);*/
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 10px 15px rgb(221, 220, 220);
+}
+.navbar-nav{
+    margin-right: 20px;
+}
+.dropdown-menu{
+    /*background: linear-gradient(to top, rgb(12, 12, 12)0%, rgb(105, 103, 103)50%, rgb(27, 27, 27)100%);*/
+    background: white;  
+    color: rgb(0, 0, 0);
+}
+.dropdown-item{
+    color: rgb(0, 0, 0);
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: rgb(223, 217, 217);
+    box-shadow: rgb(219, 95, 95);
+    scale: 1.1;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.tipo.fonte1{
+    font-family: "Pacifico", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    text-shadow: 1px 5px 20px black; 
+}
+.tipo.fonte2{
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    text-shadow: 1px 5px 20px black; 
+}
+
+
+/*INICIO CSS SOBRE*/
+.carousel-item{
+    transition: transform 10s linear;
+    animation: infinite;
+}
+
+.carousel-item:hover{
+    height: 200px;
+ }
+
+.card{
+    margin-top: 0px; 
+}
+.card img{
+    transform: translate(0%) scale(1.0) rotate(0deg);
+    transition: transform 0.5s ease-in;
+
+}
+
+.card img:hover{
+    transform: translate(60%) scale(1.1) rotate(-10deg);
+    transition: transform 0.5s ease-in;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.sobre-text .card-title{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
